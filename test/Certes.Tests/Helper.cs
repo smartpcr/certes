@@ -106,8 +106,6 @@ namespace Certes
                 validCertificate = (cert, key);
                 return validCertificate.Value;
             }
-
-            throw new Exception("Fail to load certificate");
         }
     }
 }
